@@ -188,7 +188,7 @@ def main():
 
     '''load pretrained model'''
     if params['checkpoint']:
-        if os.path.exists(params['checkpoint']): 
+        if os.path.exists(params['checkpoint']):
             checkpoint = torch.load(params['checkpoint'], map_location=device)
         else:
             raise FileNotFoundError(f"Checkpoint file {params['checkpoint']} does not exist.")

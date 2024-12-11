@@ -20,13 +20,13 @@ class L2R2024LUMIRDataset(PairwiseDataset):
         f_sid = sid_regex.search(os.path.basename(data_path['f_img'])).group(1)
         m_sid = sid_regex.search(os.path.basename(data_path['m_img'])).group(1)
 
-        sample['filename'] = f'disp_{f_sid}_{m_sid}.nii.gz'
-        sample['prefix'] = os.path.abspath(os.path.join(
-                                self.params['output_dir'],
-                                'experiments',
-                                'l2r2024lumir',
-                                sample['filename']
-        ))
+        # sample['filename'] = f'disp_{f_sid}_{m_sid}.nii.gz'
+        # sample['prefix'] = os.path.abspath(os.path.join(
+        #                         self.params['output_dir'],
+        #                         'experiments',
+        #                         'l2r2024lumir',
+        #                         sample['filename']
+        # ))
 
         return sample
 
