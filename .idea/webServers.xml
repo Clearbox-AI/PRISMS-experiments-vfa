@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="571eff47-d938-4f92-a89b-631ef5bc128a" name="remote_prisms_vfa">
+        <fileTransfer rootFolder="/home/experiments/PRISMS-experiments-vfa" accessType="SFTP" host="35.242.219.34" port="22" sshConfigId="ee340af3-ecd3-4bcb-85a9-cf82fbdbf113" sshConfig="giovanni@35.242.219.34:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
